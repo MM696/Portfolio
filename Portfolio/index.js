@@ -1,0 +1,1 @@
+document.querySelector(jox-a).classList.add("picture1");

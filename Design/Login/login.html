@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./styles.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+QLD+Guides&display=swap" rel="stylesheet">
+</head>
+<body>
+  <form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <h1>Let's get started!🥳</h1>
+      <div class="jox-a">Sign up to start saving and investing with <span>Wonda</span> today!</div>
+      
+      <label class="name">
+        <input type="text" placeholder=" " name="name" required>
+        <span>Full name</span>
+      </label>
+       
+      <label class="email">
+        <input type="text" placeholder=" " name="email" required>
+        <span>Email address</span>
+      </label>
+      
+
+      <label class="phone-no">
+        <input type="text" placeholder=" " name="number" required>
+        <span>Phone number</span>
+      </label>
+      
+      <label class="psw">
+        <input type="password" placeholder=" " name="psw" required>
+        <span>Password</span>
+      </label>
+
+      <label class="psw-repeat">
+        <input type="password" placeholder=" " name="psw-repeat" required>
+        <span>Repeat password</span>
+      </label>
+  
+      <label id="rmbrme">
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+  
+      <p class="jox-b">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+
+
+  <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
